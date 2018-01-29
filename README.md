@@ -8,3 +8,7 @@ intro to webpack.
 
 ### Translations
 - [Chinese Traditional](https://github.com/AriaFallah/WebpackTutorial/tree/master/zh-TW)
+
+### Gitbook
+
+- [Webpack Tutoiral Gitbook 繁體中文](https://github.com/neighborhood999/webpack-tutorial-gitbook)
