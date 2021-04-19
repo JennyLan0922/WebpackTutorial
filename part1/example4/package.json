@@ -2,14 +2,18 @@
   "name": "example4",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "webpack.confg.js",
   "scripts": {
+    "start": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^1.12.13"
+    "css-loader": "^0.23.1",
+    "node-sass": "^5.0.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^1.15.0"
   }
 }

@@ -8,11 +8,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
+    new webpack.optimize.UglifyJsPlugin({ //minify javascript & remove space..
       compressor: {
         warnings: false,
       },
     }),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    new webpack.optimize.OccurrenceOrderPlugin() //
   ]
 }
